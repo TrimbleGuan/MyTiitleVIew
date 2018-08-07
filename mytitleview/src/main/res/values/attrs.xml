@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomTitleBar">
+        <attr name="back_imgeview" format="reference"></attr>
+        <attr name="menu_imgeview" format="reference"></attr>
+        <attr name="title_text" format="string"></attr>
+        <attr name="title_text_color" format="color"></attr>
+        <attr name="title_size" format="dimension"></attr>
+
+        <attr name="left_visibility" format="boolean"/>
+        <attr name="text_visibility" format="boolean"/>
+        <attr name="right_visibility" format="boolean"/>
+    </declare-styleable>
+</resources>
